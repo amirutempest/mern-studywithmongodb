@@ -3,6 +3,6 @@ const mongoose = require("mongoose")
 
 module.exports = {
     mongoose,
-    url : dbConfig.url,
-    mahasiswa : require('./mahasiswa.model')(mongoose)
+    url: dbConfig.url,
+    mahasiswa: require('./mahasiswa.model.js')(mongoose)
 }
